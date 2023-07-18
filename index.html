@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Site</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Kaique Isbaex</h1>
+        </div>
+        <ul>
+            <li>
+                <a href="#">Início</a>
+            </li>
+            <li>
+                <a href="#">Sobre Mim</a>
+            </li>
+            <li>
+                <a href="#">Projetos</a>
+            </li>
+            <li>
+                <a href="#">Contato</a>
+            </li>
+            <div class="iconDark">
+                <span id="iconSol" class="fas fa-sun" onclick="darkTheme()"></span>
+            </div>
+        </ul>
+    </header>
+    <main>
+        <div class="mainImg">
+            <img src="imgs/imgKaique.png" alt="">
+        </div>
+        <div id="mainTitles">
+            <h1>Olá! Sou Kaique</h1>
+            <h2>Desenvolvedor Web <span id="iconCode"><ion-icon name="code-slash-outline"></ion-icon></span></h2>
+            <h3>Front-End</h3>
+            <button onclick="botao()">Conhecer</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
